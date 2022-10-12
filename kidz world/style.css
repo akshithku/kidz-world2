@@ -1,0 +1,170 @@
+body{
+    display: inline-block;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+nav{
+    margin: 0%;
+    background-color: antiquewhite;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; 
+
+
+}
+#logo{
+    align-self: center;
+}
+#logo-img{
+    height:40px ;
+    margin-left: 100px;
+}
+#cart-img{
+    height: 50px;
+
+
+}
+#cart-items{
+display: flex;
+margin-right: 100px;
+}
+.banner-img{
+    height: 600px;
+}
+.banner{
+    justify-content: flex-start;
+}
+.headings{
+    /* background-image: url(./assets/kw-background.png);  */
+    background-size: cover;
+    position: absolute;
+    margin: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.img{
+    height: 200px;
+}
+
+.section{
+    justify-content: space-around;
+}
+
+#book-heading{
+    margin-left: 30px;
+}
+#sections-heading{
+    margin-left: 50px;
+}
+.add-button{
+    background-color: blue;
+    height: 36px;
+    width: 62px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.white-cart{
+    height: 20px;
+}
+.price-add{
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    color: aliceblue;
+}
+.krishti{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+#krishti-heading{
+    margin-left:100px;
+}
+#name-mail{
+    margin-right: 100px;
+}
+.img1{
+    height: 315px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 40px;
+}
+p{
+    font-size: 50px;
+}
+@media (max-width:600px) {
+    body{
+    background-color: yellowgreen;
+    }
+   .section{
+    flex-direction: column;
+   }
+   
+   .abc{
+    text-align:center;
+    
+    }
+
+    .price-add{
+        justify-content: space-between;
+    }
+   .banner-img {
+        height: 610px;
+   }
+   .img1{
+    height: 500px;
+    width: 500px;
+    
+   }
+   .img{
+    height: 500px;
+    width: 500px;
+   }
+   h3{
+    font-size: 20px;
+   }
+   h2{
+    font-size: 60px;
+   }
+   h4{
+    font-size: 20px;
+   }
+   p{
+    font-size: 50px;
+   }
+   .add-button{
+    height: 90px;
+    width: 90px;
+   }
+   .white-cart{
+    height: 40px;
+   }
+   
+   
+   .krishti{
+    height: 200px;
+    width: 200px;
+   }
+   #name-mail{
+    margin-left:100px ;
+    margin-top: 100px;
+   }
+   #AK{
+    margin-left: 130px;
+   }
+}
